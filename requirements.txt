@@ -1,0 +1,17 @@
+django==1.10
+django-cleanup==0.4.2
+djangorestframework==3.4.1
+djangotoolbox==1.8.0
+Pillow==3.3.0
+#python-memcached==1.58
+six==1.10.0
+sorl-thumbnail==12.3
+
+# heroku
+# run these commands to setup heroku properly
+# heroku create --stack cedar --buildpack git://github.com/heroku/heroku-buildpack-python.git
+# heroku config:add BUILDPACK_URL=git@github.com:heroku/heroku-buildpack-python.git#purge
+# heroku config:set HEROKU=1
+psycopg2==2.6.1
+dj-database-url==0.3.0
+gunicorn==19.6.0
